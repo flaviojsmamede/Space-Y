@@ -1,0 +1,185 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-size: 18px;
+  margin: 0px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  background: none;
+}
+
+.logo {
+  position: absolute;
+  width: 150px;
+  height: 65px;
+  left: 10%;
+  top: 10%;
+}
+
+.logo:hover{
+  text-decoration: none;
+}
+
+.menu {
+  position: absolute;
+  height: 22px;
+  right: 10%;
+  top: 15%;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+.menu a:link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+}
+
+.menu a:hover {
+  color: rgba(255, 255, 255, 1);
+  display: block;
+  width: 10%;
+  border-bottom: 5px dotted white;
+}
+
+a:visited {
+  color: white;
+}
+
+#home, .left-align {
+  height: 624px;
+  padding-top: 400px;
+  padding-left: 10%;
+}
+
+h1 {
+  /* margin: 350px 0px 0px 0px; */
+  margin: auto;
+}
+
+h1 #atmosphere {
+  padding.top: 200px;
+}
+
+p {
+  width: 37%;
+}
+
+#home p {
+  margin: 25px auto;
+}
+
+#home {
+  text-align: center;
+  padding-left: 0;
+}
+
+.button {
+  background: none;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 70px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none
+}
+
+.button:hover {
+  background: white;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form {
+  padding-left: 10%;
+  padding-bottom: 100px;
+}
+
+#resume {
+  display: none;
+}
+
+strong.resumeLink {
+  text-decoration: underline;
+}
+
+strong.resumeLink:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+label {
+  padding: 10px 0px 5px 0px;
+  line-height: 19px;
+  background: yellow;
+}
+
+.inputText {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  height: 40px;
+  width: 345px;
+  border: none;
+  margin: auto;
+}
+
+footer {
+  background: none;
+}
+
+/* ******** BACKGROUNDS ******* */
+
+#home {
+  background-image: url(images/home-background.png);
+
+}
+
+#about {
+  background-image: url(images/about-background.png);
+}
+
+#atmosphere {
+  background-image: url(images/atmosphere-background.png);
+}
+
+#water {
+  background-image: url(images/water-background.png);
+}
+
+#energy {
+  background-image: url(images/energy-background.png);
+}
+
+#currency {
+  background-image: url(images/currency-background.png);
+}
+
+#learn {
+  background-image: url(images/learn-background.png);
+}
+
+#joinus {
+  background-image: url(images/joinus-background.png);
+  background-repeat: no-repeat;
+background-size: 1024px;
+  background-position: bottom;
+}
